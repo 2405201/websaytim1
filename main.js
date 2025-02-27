@@ -279,6 +279,3 @@ masofa2.addEventListener('click', function(){
     kirit.textContent = (kilometr).toFixed(1)
     
 })
-
-
-
