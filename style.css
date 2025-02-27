@@ -1,0 +1,412 @@
+*, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+
+}
+
+
+header {
+  background-color: #fcfcfc;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #351a00, #001747);
+}
+
+.ism{
+  height: 50px;
+  color: #f4f4f4;
+}
+
+.ism:hover {
+  background: linear-gradient(135deg, #350000, #144700);
+  width: 399px;
+  height: 100px;
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+}
+
+header nav ul {
+  list-style-type: none;
+  display: flex;
+
+}
+
+header nav ul li {
+  margin-left: 20px;
+  
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  background: linear-gradient(135deg, #350000, #144700);
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+  width: 50px;
+  height: 55px;
+}
+
+
+.abut {
+  padding: 50px 0;
+  background-color: #ffffff;
+  background: linear-gradient(135deg, #351a00, #001747);
+
+
+}
+
+.abut.QUTI {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.abut h1 {
+  font-size: 2.5em;
+  color: #fcfcfc;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #351a00, #001747);
+  text-align: center;
+  
+}
+
+.RASM {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.RASM img {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #351a00, #001747);
+text-align: center;
+  color: whitesmoke;
+}
+
+.abut p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #351a00, #001747);
+  color: whitesmoke;
+text-align: center;
+}
+
+.abut h2 {
+  font-size: 2em;
+  color: #f1f4f7;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #351a00, #001747);
+  color: whitesmoke;
+  text-align: center;
+}
+
+.abut ul {
+  list-style-type: none;
+  font-size: 1.2em;
+  background: linear-gradient(135deg, #351a00, #001747);
+  color: whitesmoke;
+text-align: center;
+}
+
+
+.abut ul li {
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #351a00, #001747);
+  color: whitesmoke;
+  text-align: center;
+
+}
+
+
+
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  background: linear-gradient(135deg, #351a00, #001747);
+}
+
+footer a {
+  color: #FFD700;
+  text-decoration: none;
+  background: linear-gradient(135deg, #351a00, #001747);
+}
+
+footer a:hover {
+  text-decoration: underline;
+  background: linear-gradient(135deg, #ff7b00, #0051ff);
+  width: 30px;
+  height: 30px;
+}
+
+h2:hover {
+  background: linear-gradient(135deg, #351a00, #470000);
+  width: 1349px;
+  height: 60px;
+  text-align: center;
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+}
+
+h2 {
+  color: #f1f4f7;
+  text-align: center;
+}
+
+h1 {
+  color: #f4f4f4;
+  text-align: center;
+}
+
+h1:hover{
+  background: linear-gradient(135deg, #351a00, #470000);
+  width: 1399px;
+  height: 60px;
+  text-align: center;
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+}
+
+
+
+
+
+.container {
+  width:1340x;
+  min-height: 50px;
+  background: linear-gradient(135deg, #351a00, #001747);
+  text-align: center;
+
+
+}
+
+
+
+
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #4500e7, #fc036b);
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  font-weight: 14px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: linear-gradient(135deg, #347715, #fc9803);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 17px;
+  padding: 12px 8px 12px 50px;
+  user-select: none;
+  cursor: pointer;
+  position: relative;
+  color: #f4f4f4;
+}
+
+
+
+
+
+
+
+.btn {
+  color: white;
+  align-items: center;
+  padding-left: 180px;
+  padding-right: 190px;
+}
+
+
+.foot {
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+button:hover{
+  color: rgb(0, 255, 213);
+  background: linear-gradient(135deg, #2d4401, #3d0000);
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 2px 2px 50px;
+  border: none;
+}
+
+
+
+
+
+
+.natija1{
+    color: #f4f4f4;
+}
+.raqam1 {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    transition:1.5s;
+    background: linear-gradient(135deg, #2d4401, #3d0000);
+    color: #f4f4f4;
+    
+}
+
+.qoshish {
+
+    background-color: #0026ff;
+    width: 55px;
+    height: 60px;
+}
+
+.ayrish {
+
+    background-color: #0026ff;
+    width: 55px;
+    height: 60px;
+}
+
+.kopaytirish {
+
+    background-color: #0026ff;
+    width: 55px;
+    height: 60px;
+}
+
+.bolish {
+
+    background-color: #0026ff;
+    width: 55px;
+    height: 60px;
+}
+
+.raqam1:hover {
+  background: linear-gradient(135deg, #200144, #3d002e);
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+}
+
+
+
+
+
+.telefonraqam {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+.number-display p {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #f4f4f4;
+
+}
+
+
+
+
+.ola{
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  transition:1.5s;
+  background: linear-gradient(135deg, #2d4401, #3d0000);
+  color: #f4f4f4;
+}
+
+.ola:hover {
+
+  background: linear-gradient(135deg, #200144, #3d002e);
+  box-shadow: -5px 5px 50px rgb(255, 254, 254) ;
+}
+
+label{
+  font-size: 30px;
+  font-weight: bold;
+}
+.btn{
+  width: 140px;
+  font-weight: bold;
+  padding: 10px;
+  gap: 30px;
+  border-radius: 10px;
+}
+.btns{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+p{
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn:hover{
+  color: aliceblue;
+  background-color: rgb(0, 7, 71);
+  transform: scale(1.1);
+  transition: 0.5s;
+  box-shadow: 2px 2px 50px;
+  border: none;
+}
+h1{
+  padding: 20px;
+}
+
+h6{
+  color: whitesmoke;
+}
+.job-title {
+  color: #f4f4f4;
+}
+
+
+p {
+  color: #f4f4f4;
+}
+
+
+
+
+
